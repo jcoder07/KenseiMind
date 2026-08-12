@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4754E651302BD5E000BEC159 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4754E639302BD5DE00BEC159 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4754E640302BD5DE00BEC159;
+			remoteInfo = KenseiMind;
+		};
+		4754E65B302BD5E100BEC159 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4754E639302BD5DE00BEC159 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4754E640302BD5DE00BEC159;
+			remoteInfo = KenseiMind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4754E641302BD5DE00BEC159 /* KenseiMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KenseiMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4754E650302BD5E000BEC159 /* KenseiMindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KenseiMindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4754E65A302BD5E100BEC159 /* KenseiMindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KenseiMindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4754E66B302BDB0300BEC159 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		4754E66D302BDB0300BEC159 /* Config.xcconfig.example */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig.example; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4754E643302BD5DE00BEC159 /* KenseiMind */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KenseiMind;
+			sourceTree = "<group>";
+		};
+		4754E653302BD5E000BEC159 /* KenseiMindTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KenseiMindTests;
+			sourceTree = "<group>";
+		};
+		4754E65D302BD5E100BEC159 /* KenseiMindUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KenseiMindUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4754E63E302BD5DE00BEC159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		4754E64D302BD5E000BEC159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		4754E657302BD5E100BEC159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4754E638302BD5DE00BEC159 = {
+			isa = PBXGroup;
+			children = (
+				4754E66B302BDB0300BEC159 /* Config.xcconfig */,
+				4754E66D302BDB0300BEC159 /* Config.xcconfig.example */,
+				4754E643302BD5DE00BEC159 /* KenseiMind */,
+				4754E653302BD5E000BEC159 /* KenseiMindTests */,
+				4754E65D302BD5E100BEC159 /* KenseiMindUITests */,
+				4754E642302BD5DE00BEC159 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4754E642302BD5DE00BEC159 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4754E641302BD5DE00BEC159 /* KenseiMind.app */,
+				4754E650302BD5E000BEC159 /* KenseiMindTests.xctest */,
+				4754E65A302BD5E100BEC159 /* KenseiMindUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4754E640302BD5DE00BEC159 /* KenseiMind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4754E662302BD5E100BEC159 /* Build configuration list for PBXNativeTarget "KenseiMind" */;
+			buildPhases = (
+				4754E63D302BD5DE00BEC159 /* Sources */,
+				4754E63E302BD5DE00BEC159 /* Frameworks */,
+				4754E63F302BD5DE00BEC159 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				4754E643302BD5DE00BEC159 /* KenseiMind */,
+			);
+			name = KenseiMind;
+			productName = KenseiMind;
+			productReference = 4754E641302BD5DE00BEC159 /* KenseiMind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4754E64F302BD5E000BEC159 /* KenseiMindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4754E665302BD5E100BEC159 /* Build configuration list for PBXNativeTarget "KenseiMindTests" */;
+			buildPhases = (
+				4754E64C302BD5E000BEC159 /* Sources */,
+				4754E64D302BD5E000BEC159 /* Frameworks */,
+				4754E64E302BD5E000BEC159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4754E652302BD5E000BEC159 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4754E653302BD5E000BEC159 /* KenseiMindTests */,
+			);
+			name = KenseiMindTests;
+			productName = KenseiMindTests;
+			productReference = 4754E650302BD5E000BEC159 /* KenseiMindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4754E659302BD5E100BEC159 /* KenseiMindUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4754E668302BD5E100BEC159 /* Build configuration list for PBXNativeTarget "KenseiMindUITests" */;
+			buildPhases = (
+				4754E656302BD5E100BEC159 /* Sources */,
+				4754E657302BD5E100BEC159 /* Frameworks */,
+				4754E658302BD5E100BEC159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4754E65C302BD5E100BEC159 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4754E65D302BD5E100BEC159 /* KenseiMindUITests */,
+			);
+			name = KenseiMindUITests;
+			productName = KenseiMindUITests;
+			productReference = 4754E65A302BD5E100BEC159 /* KenseiMindUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4754E639302BD5DE00BEC159 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					4754E640302BD5DE00BEC159 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					4754E64F302BD5E000BEC159 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 4754E640302BD5DE00BEC159;
+					};
+					4754E659302BD5E100BEC159 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 4754E640302BD5DE00BEC159;
+					};
+				};
+			};
+			buildConfigurationList = 4754E63C302BD5DE00BEC159 /* Build configuration list for PBXProject "KenseiMind" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4754E638302BD5DE00BEC159;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4754E642302BD5DE00BEC159 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4754E640302BD5DE00BEC159 /* KenseiMind */,
+				4754E64F302BD5E000BEC159 /* KenseiMindTests */,
+				4754E659302BD5E100BEC159 /* KenseiMindUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4754E63F302BD5DE00BEC159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		4754E64E302BD5E000BEC159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		4754E658302BD5E100BEC159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4754E63D302BD5DE00BEC159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		4754E64C302BD5E000BEC159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		4754E656302BD5E100BEC159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4754E652302BD5E000BEC159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4754E640302BD5DE00BEC159 /* KenseiMind */;
+			targetProxy = 4754E651302BD5E000BEC159 /* PBXContainerItemProxy */;
+		};
+		4754E65C302BD5E100BEC159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4754E640302BD5DE00BEC159 /* KenseiMind */;
+			targetProxy = 4754E65B302BD5E100BEC159 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4754E660302BD5E100BEC159 /* Debug configuration for PBXProject "KenseiMind" */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4754E66B302BDB0300BEC159 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "$(DEVELOPMENT_TEAM)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4754E661302BD5E100BEC159 /* Release configuration for PBXProject "KenseiMind" */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4754E66B302BDB0300BEC159 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "$(DEVELOPMENT_TEAM)";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4754E663302BD5E100BEC159 /* Debug configuration for PBXNativeTarget "KenseiMind" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "$(DEVELOPMENT_TEAM)";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4754E664302BD5E100BEC159 /* Release configuration for PBXNativeTarget "KenseiMind" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "$(DEVELOPMENT_TEAM)";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4754E666302BD5E100BEC159 /* Debug configuration for PBXNativeTarget "KenseiMindTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "$(DEVELOPMENT_TEAM)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER_TESTS)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KenseiMind.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KenseiMind";
+			};
+			name = Debug;
+		};
+		4754E667302BD5E100BEC159 /* Release configuration for PBXNativeTarget "KenseiMindTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "$(DEVELOPMENT_TEAM)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER_TESTS)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KenseiMind.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KenseiMind";
+			};
+			name = Release;
+		};
+		4754E669302BD5E100BEC159 /* Debug configuration for PBXNativeTarget "KenseiMindUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "$(DEVELOPMENT_TEAM)";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER_UI_TESTS)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KenseiMind;
+			};
+			name = Debug;
+		};
+		4754E66A302BD5E100BEC159 /* Release configuration for PBXNativeTarget "KenseiMindUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "$(DEVELOPMENT_TEAM)";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER_UI_TESTS)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KenseiMind;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4754E63C302BD5DE00BEC159 /* Build configuration list for PBXProject "KenseiMind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4754E660302BD5E100BEC159 /* Debug configuration for PBXProject "KenseiMind" */,
+				4754E661302BD5E100BEC159 /* Release configuration for PBXProject "KenseiMind" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		4754E662302BD5E100BEC159 /* Build configuration list for PBXNativeTarget "KenseiMind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4754E663302BD5E100BEC159 /* Debug configuration for PBXNativeTarget "KenseiMind" */,
+				4754E664302BD5E100BEC159 /* Release configuration for PBXNativeTarget "KenseiMind" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		4754E665302BD5E100BEC159 /* Build configuration list for PBXNativeTarget "KenseiMindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4754E666302BD5E100BEC159 /* Debug configuration for PBXNativeTarget "KenseiMindTests" */,
+				4754E667302BD5E100BEC159 /* Release configuration for PBXNativeTarget "KenseiMindTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		4754E668302BD5E100BEC159 /* Build configuration list for PBXNativeTarget "KenseiMindUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4754E669302BD5E100BEC159 /* Debug configuration for PBXNativeTarget "KenseiMindUITests" */,
+				4754E66A302BD5E100BEC159 /* Release configuration for PBXNativeTarget "KenseiMindUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4754E639302BD5DE00BEC159 /* Project object */;
+	validationLevel = 1;
+}

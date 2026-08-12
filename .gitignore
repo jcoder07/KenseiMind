@@ -1,0 +1,5 @@
+Config.xcconfig
+
+# Xcode
+xcuserdata/
+*.xcscmblueprint

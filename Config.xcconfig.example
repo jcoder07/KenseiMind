@@ -1,0 +1,15 @@
+//
+//  Config.xcconfig.example
+//  KenseiMind
+//
+//  Copy this file to Config.xcconfig and fill in your own values.
+//  Config.xcconfig is gitignored and must never be committed.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+
+PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.YourAppName
+PRODUCT_BUNDLE_IDENTIFIER_TESTS = com.yourcompany.YourAppNameTests
+PRODUCT_BUNDLE_IDENTIFIER_UI_TESTS = com.yourcompany.YourAppNameUITests
+DEVELOPMENT_TEAM = YOUR_TEAM_ID
